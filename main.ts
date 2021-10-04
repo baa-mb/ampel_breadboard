@@ -18,9 +18,9 @@ basic.forever(function () {
     basic.pause(4000)
     for (let Index = 0; Index <= 3; Index++) {
         pins.analogWritePin(AnalogPin.P2, 0)
-        basic.pause(400)
+        basic.pause(500)
         pins.analogWritePin(AnalogPin.P2, 512)
-        basic.pause(400)
+        basic.pause(500)
     }
     basic.showString("Y")
     aus()
